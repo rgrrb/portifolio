@@ -18,7 +18,7 @@ ul {
 body {
     width: 100vw;
     background-image: url(./img/bgportifolio.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
     background-color: black;
@@ -55,7 +55,7 @@ header nav ul {
 
 .header-content {
     display: flex;
-    margin-top: 10rem;
+    margin-top: 15rem;
     height: 650px;
     width: 100%;
 }
@@ -79,12 +79,13 @@ header nav ul {
 }
 
 .left-content-header h1 {
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .left-content-header p {
+    font-size: 1.1rem;
     margin-top: 10px;
-    padding-left: 20px;
     width: 80%;
 }
 
@@ -94,7 +95,7 @@ header nav ul {
 
 .social-media {
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
     gap: 10px;
 }
 
@@ -124,7 +125,7 @@ header nav ul {
     justify-content: center;
     width: 100%;
     height: 543px;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .stacks {
@@ -305,7 +306,11 @@ header nav ul {
     height: 345px;
     gap: 10px;
 }
+.section-experience span{
+    font-size: 1.45rem;
+}
 .section-experience p{
+    font-size: 1.2rem;
     width: 80%;
 }
 
@@ -319,5 +324,5 @@ header nav ul {
     color: white;
 }
 #secao5 a img{
-    height: 80px;
+    height: 50px;
 }
