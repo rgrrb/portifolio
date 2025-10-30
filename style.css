@@ -207,9 +207,11 @@ header nav ul {
 
 .stacks:nth-child(3) p {
     width: 0;
+    opacity: 0%;
     height: 100%;
-    position: relative;
+    transition: 1s;
     z-index: -100;
+    text-align: center;
 
 }
 
@@ -217,6 +219,7 @@ header nav ul {
     width: 100%;
     z-index: 100;
     padding: 0;
+    opacity: 100%;
 }
 
 .stacks:nth-child(3) .left {
@@ -242,6 +245,7 @@ header nav ul {
 .stacks:nth-child(3) .right {
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
     background-color: #0084FF;
     color: white;
@@ -250,6 +254,7 @@ header nav ul {
 
 .stacks:nth-child(3):hover .right {
     color: #0084FF;
+    left: 40px;
 }
 
 .section-projects {
